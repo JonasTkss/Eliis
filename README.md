@@ -1,15 +1,28 @@
-# Getting Started with This Project
+# Eliis technical test
+This is a technical test for a front-end developer position at Eliis Tarkvara OÜ
 
-## 1. Step
+## Getting started
 
-### `git clone https://github.com/JonasTkss/Eliis/`
+Follow these steps to get your project up and running.
 
+### Requirements
 
-## 2. Step
+All you need for this project is:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-### `npm install`
+### Installation
 
+1. Clone this repository:
+   ```git clone https://github.com/JonasTkss/Eliis/```
 
-## 3. Step
+2. Navigate to the project directory:
+   ```cd Eliis```
 
-### `npm start`
+3. Install dependencies:
+   ```npm install```
+
+4. Start the project:
+   ```npm start```
+
+5. Navigate to the Events -> Calendar and start adding events
