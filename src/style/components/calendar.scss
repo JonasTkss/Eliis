@@ -1,0 +1,93 @@
+.calendar {
+  padding: 0 0 0 1rem;
+  margin: 1rem 0 0 0;
+  &__title {
+    margin-bottom: 2.25rem;
+    @media (max-width: 1024px) {
+      margin-bottom: 0;
+    }
+  }
+  &__view {
+    margin-top: 4rem;
+    @media (max-width: 1024px) {
+      margin-top: 2rem;
+    }
+  }
+  .col-md-2 {
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+  .col-md-10 {
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+}
+
+.calendar-bg {
+  background: linear-gradient(90deg, #ededed 0%, #fbfbfb 0.5%);
+}
+
+.calendar-types {
+  @media (max-width: 1024px) {
+    display: none;
+  }
+  h6 {
+    font-weight: 700;
+  }
+  &__list {
+    margin-top: 1rem;
+    ul {
+      list-style: none;
+      li {
+        margin-bottom: 0.75rem;
+      }
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+  &__icon {
+    margin: 0 0.5rem 0 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.calendar-view {
+  border-left: 2px solid #c2c2c2;
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  position: relative;
+  &__button {
+    display: flex;
+    position: absolute;
+    @media (max-width: 1024px) {
+      margin-bottom: 1rem;
+      position: relative;
+    }
+  }
+  @media (max-width: 1024px) {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+.create-event {
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
